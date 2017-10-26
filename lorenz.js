@@ -8,6 +8,7 @@ var gama;
 
 var vectorHistory;
 function setup() {
+  // createCanvas(800, 600, WEBGL);
   createCanvas(800, 600);
   colorMode(HSB);
   x = 0.01;
@@ -17,7 +18,6 @@ function setup() {
   beta = 8/3;
   gama = 28;
   vectorHistory = [];
-
 }
 
 function draw() {
